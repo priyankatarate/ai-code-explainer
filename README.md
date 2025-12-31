@@ -1,4 +1,4 @@
-# AI-Powered JavaScript Code Explainer
+# AI JavaScript Code Explainer
 
 A CLI tool that accepts JavaScript code and generates a plain-English explanation using an LLM.  
 The tool uses AST parsing to ground explanations and reduce hallucinations.
@@ -18,7 +18,7 @@ The tool uses AST parsing to ground explanations and reduce hallucinations.
 ## Tech Stack
 - Node.js
 - @babel/parser + @babel/traverse
-- OpenAI API (pluggable with Claude / Mistral)
+- OpenAI API
 - dotenv
 
 ---
